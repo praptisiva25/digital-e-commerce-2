@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import {Funnel_Display} from 'next/font/google'
+import { ClerkProvider } from "@clerk/nextjs";
 
 import Provider from "./provider";
 
@@ -13,6 +14,7 @@ const AppFont= Funnel_Display({subsets:['latin']})
 
 export default function RootLayout({ children }) {
   return (
+    <ClerkProvider>
     <html lang="en">
       <body
         className={AppFont.className}
@@ -22,5 +24,6 @@ export default function RootLayout({ children }) {
         </Provider>
       </body>
     </html>
+    </ClerkProvider>
   );
 }
