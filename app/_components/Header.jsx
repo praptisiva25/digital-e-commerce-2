@@ -1,6 +1,6 @@
 import React from "react";
 import { ShoppingBag } from "lucide-react";
-import  { Button } from "@/components/ui/button"
+import  { Button } from "../../components/ui/button"
 import { UserButton } from "@clerk/nextjs";
 
 function Header() {

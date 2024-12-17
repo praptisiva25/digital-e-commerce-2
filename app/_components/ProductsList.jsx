@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { Button } from "@/components/ui/button";
+import { Button } from "../../components/ui/button";
 import ProductCardItem from "./ProductCardItem"
 import Products from '../_mockData/Products';
 

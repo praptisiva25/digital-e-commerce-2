@@ -1,5 +1,5 @@
-import { usersTable } from "@/configs/schema";
-import { db } from "@/configs/db";
+import { usersTable } from "../../../configs/schema";
+import { db } from "../../../configs/db";
 import { NextResponse } from "next/server";
 import { eq } from "drizzle-orm";
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import {Card} from "@/components/ui/card"
+import {Card} from "../../components/ui/card"
 import Image from "next/image"
 import Products from '../_mockData/Products';
-import {Button} from "@/components/ui/button"
+import {Button} from "../../components/ui/button"
 
 function ProductCardItem ({product}) {
     return (
